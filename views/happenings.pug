@@ -1,0 +1,14 @@
+extends layout
+
+block content
+    h1 Welcome to hear news
+    h2 with teachers  
+    each person in users
+        if person.itsComments.length == 1
+            p #{person.name} made a comment to #{person.itsComments[0].post.name}  ; the comment is "#{person.itsComments[0].comment}"
+        else if  person.itsComments.length > 1           
+            each commentInfo in person.itsComments
+                p #{person.name} made a comment to #{commentInfo.post.name} ; the comment is "#{commentInfo.comment}"
+        
+    //    #{person.itsComments[0].post.name} which is "#{person.itsComments[0].comment}"
+    
