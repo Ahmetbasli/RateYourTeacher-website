@@ -7,7 +7,7 @@ router.get("/all", async (req, res) => {
   const people = await PersonService.findAll();
   res.render("list", { items: people });
 });
-
+//
 router.get("/all/json", async (req, res) => {
   const people = await PersonService.findAll();
   res.send(people);
