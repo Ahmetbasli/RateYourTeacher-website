@@ -10,7 +10,7 @@ services:
   frontend:
     build: frontend
     environment:
-      VUE_APP_API_URL: "http://localhost:3000"
+      VUE_APP_API_URL: "http://rate-teachers-backend.herokuapp.com"
       PORT: "8080"
     ports:
       - 8080:8080
