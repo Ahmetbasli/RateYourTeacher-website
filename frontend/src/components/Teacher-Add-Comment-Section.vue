@@ -85,7 +85,7 @@ import { mapState, mapActions } from "vuex";
 import { mdbRating } from "mdbvue";
 export default {
   name: "CommentSection",
-  //
+
   data: () => {
     return {
       comment: "",
