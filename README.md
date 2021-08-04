@@ -7,6 +7,9 @@ npm install
 node index.js  
   
 to start frontend: go down below 
+
+
+
 <img src="./images/Profile-8.gif" title="gif"/>
 <img src="./images/merged-images.jpg" title="gif"/>
 # frontend
